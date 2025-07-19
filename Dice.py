@@ -12,7 +12,7 @@ Dice_No=r.randint(1,6)
 while True:
     if Option==1:
       if Dice_No==6:
-         print("Woww!!")
+         print(f"Woww!! it's{Dice_No}!!")
       else:
          print(Dice_No)
       break
